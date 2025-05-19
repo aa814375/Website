@@ -1,0 +1,132 @@
+.ticket-system {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .ticket-system h2 {
+    color: #0077cc;
+    margin-bottom: 1rem;
+  }
+  
+  .ticket-system form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .ticket-system input {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .ticket-system button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #ticketList {
+    margin-top: 1rem;
+  }
+  
+  .ticket {
+    padding: 10px;
+    border-left: 4px solid #0077cc;
+    background: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #005b96;
+  }
+  
+  p {
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .ticket-system {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .ticket-system form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .ticket-system input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  
+  .ticket {
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 4px solid #0077cc;
+    background: #e0f0ff;
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: #eaeaea;
+  }
+  
+  .dark-mode .ticket {
+    background: #333;
+    border-color: #00ccff;
+  }
+    
